@@ -20,6 +20,6 @@ func getThingOperation(apiClient: APIClient) async throws -> Thing {
     var thing = Thing(id: 86)
     
     thing.id = max(response.id, anotherResponse.id)
-    
+    // Jamie: 💥💥💥💥💥💥💥 //
     return thing
 }
